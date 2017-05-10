@@ -248,7 +248,7 @@ hr {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 80px 0;
+	padding: 80px 0 0 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
@@ -380,14 +380,17 @@ ol.type li a:hover {
 	color: #E87E04;
 }
 .project-description {
-	font-size: 18px;
-	margin: 50px auto;
+	font-size: 20px;
+	margin: 50px auto 20px auto;
     max-width: 800px;
     text-align: center;
 }
 .project-img {
 	height: auto;
 	max-width: 100%;
+}
+.mh-img {
+	padding: 0;
 }
 /* Pretty Photo */
 .pp_expand {
